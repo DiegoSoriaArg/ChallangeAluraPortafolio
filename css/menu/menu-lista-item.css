@@ -1,0 +1,7 @@
+.menu__lista__item {
+    margin-left: 1rem;
+}
+
+.menu__lista__item a:hover {
+    color: var(--col-de-linkHover);
+}
