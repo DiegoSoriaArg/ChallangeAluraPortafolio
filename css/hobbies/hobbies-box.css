@@ -1,0 +1,10 @@
+.hobbies__box {
+    width: 15%;
+    background-color: var(--col-base-box);
+    padding: 7rem 0 0rem 1rem;
+}
+
+.hobbies__box ul {
+    margin: 0px;
+    padding: 0px;
+}
