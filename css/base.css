@@ -3,6 +3,7 @@
 :root {
     --col-de-fondo: #F5F5F5;
     --col-de-link: #000;
+    --col-section-fondo: #EAF2FD;
     --col-de-texto: #464646;
     --col-de-linkHover: rgb(0, 179, 179);
 }
