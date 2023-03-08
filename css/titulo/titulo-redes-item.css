@@ -1,3 +1,7 @@
 .titulo__redes__item {
     margin-right: 2rem;
 }
+
+.titulo__redes__item:hover {
+    color: var(---col-de-linkHover);
+}
