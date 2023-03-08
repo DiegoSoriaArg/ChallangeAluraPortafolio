@@ -3,6 +3,7 @@
 :root {
     --col-de-fondo: #F5F5F5;
     --col-de-link: #000;
+    --col-de-texto: #464646;
     --col-de-linkHover: rgb(0, 179, 179);
 }
 
@@ -13,6 +14,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1;
+    color: var(--col-de-texto);
 }
 
 ol, ul, li {
