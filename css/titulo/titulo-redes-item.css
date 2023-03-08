@@ -2,6 +2,10 @@
     margin-right: 2rem;
 }
 
+.titulo__redes__item a:hover {
+    color: var(--col-de-linkHover);
+}
+
 .titulo__redes__item:hover {
     color: var(---col-de-linkHover);
 }
