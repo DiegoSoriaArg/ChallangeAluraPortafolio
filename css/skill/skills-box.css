@@ -1,7 +1,6 @@
 .skills__box {
     width: 15%;
     background-color: var(--col-base-box);
-    border: 1px solid black;
     padding: 7rem 0 0rem 1rem;
 }
 
