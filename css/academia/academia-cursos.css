@@ -1,0 +1,4 @@
+.academia__cursos {
+    display: flex;
+    justify-content: space-around;
+}
