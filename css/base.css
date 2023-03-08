@@ -4,6 +4,7 @@
     --col-de-fondo: #F5F5F5;
     --col-de-link: #000;
     --col-de-texto: #464646;
+    --col-de-linkHover: rgb(0, 179, 179);
 }
 
 body {
@@ -23,4 +24,8 @@ ol, ul, li {
 a {
     text-decoration: none;
     color: var(--col-de-link);
+}
+
+.contenedorPrincipal {
+    margin: 0 10rem 0 10rem;
 }

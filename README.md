@@ -9,7 +9,7 @@ Este proyecto representa el resultado del desafío propuesta por Alura Latam par
 -Formulario de contacto
 -Rodapié
 
-CSS:
+CSS: 
 Trabajaremos con metodologia BEM y arquitectura Atomic Desing
  
 Mi nombre es Diego Soria (Soria-Dev en la web) y estare trabajando en este repositorio.  
