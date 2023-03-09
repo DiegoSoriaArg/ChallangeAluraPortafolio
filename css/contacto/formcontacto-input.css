@@ -1,0 +1,8 @@
+.formcontacto__input {
+    margin-top: 2rem;
+    box-sizing: border-box;
+    padding: 1.375rem 0.5rem 0.5rem;
+    height: 3.25rem;
+    width: 100%;
+    border: none;
+}

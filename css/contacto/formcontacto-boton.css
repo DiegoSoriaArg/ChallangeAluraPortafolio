@@ -1,0 +1,16 @@
+.formcontacto__boton {
+    margin-top: 2rem;
+    width: 20%;
+    color: var(--col-de-fondo);
+    background-color: var(--col-de-boton);
+    border: none;
+    height: 3rem;
+    border-radius: 5px;
+}
+
+.formcontacto__boton:hover {
+    color: var(--col-de-boton);
+    background-color: var(--col-de-fondo);
+    border: 1px solid var(--col-de-boton);
+    cursor: pointer;
+}
