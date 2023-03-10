@@ -1,10 +1,10 @@
-@import url(./titulo/titulo-perfil.css);
 @import url(./menu.css);
 @import url(./menu/menu-header.css);
 @import url(./menu/menu-lista.css);
 @import url(./menu/menu-titulo.css);
 @import url(./menu/menu-lista-item.css);
 @import url(./titulo.css);
+@import url(./titulo/titulo-perfil.css);
 @import url(./titulo/titulo-div.css);
 @import url(./titulo/titulo-contenedor.css);
 @import url(./titulo/titulo-bio.css);
