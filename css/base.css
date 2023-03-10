@@ -47,6 +47,7 @@
 @import url(./footer/footer.css);
 @import url(./footer/footer-rodape.css);
 
+
 /*Reseteamos el ccs de la web*/
 :root {
     --col-de-fondo: #F5F5F5;
