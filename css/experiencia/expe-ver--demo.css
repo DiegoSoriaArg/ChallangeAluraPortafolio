@@ -1,0 +1,13 @@
+.expe__ver--demo {
+    padding: 1rem;
+    background-color: var(--col-de-boton);
+    border-radius: 5px;
+    border: 1px solid var(--col-de-boton);
+    color: var(--col-de-fondo);
+}
+
+.expe__ver--demo:hover {
+    cursor: pointer;
+    background-color: var(--col-de-fondo);
+    color: black;
+}

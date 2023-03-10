@@ -1,0 +1,12 @@
+.expe__ver--repo {
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid var(--col-de-boton);
+    font-family: 'Raleway';
+    color: var(--col-de-boton);
+}
+
+.expe__ver--repo:hover {
+    cursor: pointer;
+    color: black;
+}

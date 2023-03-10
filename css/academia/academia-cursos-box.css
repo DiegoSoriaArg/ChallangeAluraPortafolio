@@ -1,0 +1,7 @@
+.academia__cursos__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32%;
+    height: 300px;
+}
