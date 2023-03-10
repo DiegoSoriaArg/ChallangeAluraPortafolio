@@ -1,5 +1,6 @@
-/*Reseteamos el ccs de la web*/
+@import url(./titulo/titulo-perfil.css);
 
+/*Reseteamos el ccs de la web*/
 :root {
     --col-de-fondo: #F5F5F5;
     --col-de-link: #000;
