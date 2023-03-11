@@ -2,3 +2,9 @@
     margin-bottom: -10px;
     font-weight: 1;
 }
+
+@media (max-width: 768px) {
+    .formcontacto__subtext {
+        font-size: 16px;
+    }
+}

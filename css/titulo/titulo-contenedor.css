@@ -1,3 +1,9 @@
 .titulo__contenedor {
     margin-right: 1rem;
 }
+
+@media (max-width: 425px) {
+    .titulo__contenedor {
+        margin: 0;
+    }
+}

@@ -1,3 +1,9 @@
 .formcontacto__titulo {
     margin-bottom: 2.5rem;
 }
+
+@media (max-width: 768px) {
+    .formcontacto__titulo {
+        font-size: 18px;
+    }
+}

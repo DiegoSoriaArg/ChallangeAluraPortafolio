@@ -5,3 +5,15 @@
     width: 32%;
     height: 300px;
 }
+
+@media (max-width: 768px) {
+    .academia__cursos__box {
+        height: 250px;
+    }
+}
+
+@media (max-width: 425px) {
+    .academia__cursos__box {
+        width: 100%;
+    }
+}

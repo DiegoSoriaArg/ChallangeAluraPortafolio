@@ -1,3 +1,11 @@
 .titulo__bio {
     font-size: 43px;
 }
+
+@media (max-width: 768px) {
+    .titulo__bio {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 425px) {}

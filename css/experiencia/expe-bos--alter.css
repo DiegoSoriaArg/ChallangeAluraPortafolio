@@ -1,11 +1,11 @@
-.expe__box {
+.expe__box--alter {
     display: flex;
     align-items: center;
     margin-top: 2rem;
 }
 
 @media (max-width: 768px) {
-    .expe__box {
-        display: block;
+    .expe__box--alter {
+        flex-flow: wrap-reverse;
     }
 }

@@ -9,3 +9,15 @@
 .titulo__redes__item:hover {
     color: var(---col-de-linkHover);
 }
+
+@media (max-width: 768px) {
+    .titulo__redes__item {
+        margin-right: 1rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .titulo__redes__item {
+        margin-right: 0.5rem;
+    }
+}

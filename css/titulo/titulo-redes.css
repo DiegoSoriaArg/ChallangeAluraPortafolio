@@ -3,3 +3,15 @@
     align-items: start;
     padding: 0;
 }
+
+@media (max-width: 768px) {
+    .titulo__redes {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 425px) {
+    .titulo__redes {
+        font-size: 13px;
+    }
+}

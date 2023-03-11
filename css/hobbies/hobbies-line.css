@@ -3,3 +3,16 @@
     justify-content: space-between;
     padding: 2rem 10rem 2rem 10rem;
 }
+
+@media (max-width: 768px) {
+    .hobbies__line {
+        flex-wrap: wrap;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .hobbies__line {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+}

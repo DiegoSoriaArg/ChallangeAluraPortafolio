@@ -1,5 +1,17 @@
 .titulo__perfil {
     border-radius: 50%;
-    max-width: 450px;
-    max-height: 450px;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+@media (max-width: 768px) {
+    .titulo__perfil {
+        max-width: 200px;
+        max-height: 200px;
+    }
+}
+
+@media (max-width: 425px) {
+    .titulo__perfil {
+    }
 }

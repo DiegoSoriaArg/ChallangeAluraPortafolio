@@ -13,6 +13,8 @@
 @import url(./titulo/titulo-redes-item.css);
 @import url(./about.css);
 @import url(./about/about-titulo.css);
+@import url(./about/about-parrafo.css);
+@import url(./about/about-container.css);
 @import url(./skills.css);
 @import url(./skill/skills-titulo.css);
 @import url(./skill/skills-line.css);
@@ -22,6 +24,7 @@
 @import url(./hobbies/hobbies-titulo.css);
 @import url(./hobbies/hobbies-line.css);
 @import url(./hobbies/hobbies-box.css);
+@import url(./hobbies/hobbies-name.css);
 @import url(./academia.css);
 @import url(./academia/academia-titulo.css);
 @import url(./academia/academia-cursos.css);
@@ -34,8 +37,12 @@
 @import url(./experiencia/expe-seccion-titulo.css);
 @import url(./experiencia/expe-box.css);
 @import url(./experiencia/expe-info.css);
+@import url(./experiencia/expe-img.css);
+@import url(./experiencia/expe-text.css);
+@import url(./experiencia/expe-titulo.css);
 @import url(./experiencia/expe-ver--demo.css);
 @import url(./experiencia/expe-ver--repo.css);
+@import url(./experiencia/expe-bos--alter.css);
 @import url(./formcontacto.css);
 @import url(./contacto/formcontacto-contacto.css);
 @import url(./contacto/formcontacto-text.css);
@@ -81,9 +88,6 @@ ol, ul, li {
 a {
     text-decoration: none;
     color: var(--col-de-link);
-}
-
-.contenedorPrincipal {
 }
 
 fieldset {

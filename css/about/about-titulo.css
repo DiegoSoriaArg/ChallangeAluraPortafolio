@@ -1,3 +1,9 @@
 .about__titulo {
     font-size: 25px;
 }
+
+@media (max-width: 768px) {
+    .about__titulo {
+        font-size: 17px;
+    }
+}

@@ -8,3 +8,17 @@
     margin: 0px;
     padding: 0px;
 }
+
+@media (max-width: 768px) {
+    .hobbies__box {
+        width: 190px;
+        margin-top: 1rem;
+        padding: 3rem 0rem 0rem 1rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .hobbies__box {
+        width: 140px;
+    }
+}

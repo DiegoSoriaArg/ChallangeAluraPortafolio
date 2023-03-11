@@ -1,3 +1,10 @@
 .skills__name {
     margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .skills__name {
+        margin-bottom: 0.5rem;
+    }
 }

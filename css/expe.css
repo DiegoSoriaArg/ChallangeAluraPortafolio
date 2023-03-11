@@ -1,3 +1,15 @@
 .expe {
     padding: 2rem 10rem 2rem 10rem;
 }
+
+@media (max-width: 768px) {
+    .expe {
+        padding: 2rem 2rem 2rem 2rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .expe {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+}

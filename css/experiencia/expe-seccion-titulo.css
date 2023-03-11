@@ -1,3 +1,9 @@
 .expe__seccion__titulo {
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .expe__seccion__titulo {
+        font-size: 18px;
+    }
+}
