@@ -1,5 +1,4 @@
 .about {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding: 2rem 10rem 2rem 10rem;
     background-color: var(--col-section-fondo);
 }

@@ -2,7 +2,5 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-    
+    padding: 3rem 10rem 2rem 10rem;
 }
