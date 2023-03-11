@@ -1,0 +1,29 @@
+.formcontacto__form__container {
+    font-weight: 300;
+    position: relative;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+.formcontacto__form__container--invalid {
+    margin-bottom: 0.5rem;
+}
+
+.formcontacto__form__container--invalid .formcontacto__input {
+    border: 1px solid red;
+    border-radius: 7px;
+}
+
+.formcontacto__form__container--invalid .formcontacto__label {
+    color: red;
+}
+
+.formcontacto__form__container--invalid .formcontacto__mensaje__error {
+    color: red;
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}

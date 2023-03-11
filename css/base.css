@@ -45,6 +45,9 @@
 @import url(./contacto/formcontacto-boton.css);
 @import url(./contacto/formcontacto-form.css);
 @import url(./contacto/formcontacto-subtitulo.css);
+@import url(./contacto/formcontacto-form-container.css);
+@import url(./contacto/formcontacto-label.css);
+@import url(./contacto/formcontacto-mensaje-error.css);
 @import url(./footer/footer.css);
 @import url(./footer/footer-rodape.css);
 

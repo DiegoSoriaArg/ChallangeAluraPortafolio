@@ -263,11 +263,32 @@
                     <h2 class="formcontacto__titulo">Contacto</h2>
                     <h3 class="formcontacto__subtext">¿Quieres contactarme?</h3>
                     <h3 class="formcontacto__subtext">Complete el siguiente formulario y me pondre en contacto con usted lo antes posible.</h3>
-                    <form class="formcontacto__form" name="form">
-                        <input class="formcontacto__input" type="text" placeholder="Nombre">
-                        <input class="formcontacto__input" type="email" placeholder="E-mail">
-                        <input class="formcontacto__input" type="text" placeholder="Asunto">
-                        <textarea class="formcontacto___textarea" name="mensaje" id="mensaje" cols="40" rows="5"></textarea>
+                    <form action="./contacto_exito.html" class="formcontacto__form" name="form">
+                        <fieldset>
+                            <div class="formcontacto__form__container">
+                                <input name="nombre" id="nombre" class="formcontacto__input" type="text" placeholder="Nombre" required data-tipo="nombre">
+                                <label class="formcontacto__label" for="nombre">Nombre</label>
+                                <span class="formcontacto__mensaje__error">Este campo no es valido</span>
+                            </div>
+                            <div class="formcontacto__form__container">
+                                <input name="email" id="email" class="formcontacto__input" type="email" placeholder="E-mail" required
+                                    data-tipo="email" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$">
+                                <label class="formcontacto__label" for="email">Email</label>
+                                <span class="formcontacto__mensaje__error">Este campo no es valido</span>
+                            </div>
+                            <div class="formcontacto__form__container">
+                                <input name="asunto" id="asunto" class="formcontacto__input" type="text" placeholder="Asunto" required
+                                    data-tipo="asunto" pattern="[\s\S]{0,50}">
+                                <label class="formcontacto__label" for="asunto">Asunto</label>
+                                <span class="formcontacto__mensaje__error">Este campo no es valido</span>
+                            </div>
+                            <div class="formcontacto__form__container">
+                                <input name="mensaje" id="mensaje" class="formcontacto__input" type="text" placeholder="Mensaje" required
+                                    data-tipo="mensaje" pattern="[\s\S]{0,200}">
+                                <label class="formcontacto__label" for="mensaje">Mensaje</label>
+                                <span class="formcontacto__mensaje__error">Este campo no es valido</span>
+                            </div>
+                        </fieldset>
                         <button class="formcontacto__boton">Enviar Mensaje</button>
                     </form>
                 </div>
@@ -284,6 +305,6 @@
 
     </div>
     
-    <script src="./js/validaciones.js"></script>
+    <script type="module" src="./js/app.js"></script>
 </body>
 </html>
