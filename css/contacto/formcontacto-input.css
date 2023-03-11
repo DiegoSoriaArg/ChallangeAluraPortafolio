@@ -6,3 +6,23 @@
     width: 100%;
     border: none;
 }
+
+.formcontacto__input::placeholder {
+    visibility: hidden;
+    color: #00000000;
+}
+
+.formcontacto__input:focus {
+    outline: none;
+}
+
+.formcontacto__input:not(:placeholder-shown)+.formcontacto__label,
+.formcontacto__input:focus+.formcontacto__label {
+    font-size: 0.875rem;
+    top: 0.25rem;
+    transition: all 0.25s;
+}
+
+.input-container--invalid {
+    margin-bottom: 0.5rem;
+}
