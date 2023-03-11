@@ -1,3 +1,5 @@
 .titulo__perfil {
     border-radius: 50%;
+    max-width: 450px;
+    max-height: 450px;
 }
