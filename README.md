@@ -10,4 +10,6 @@ Este proyecto representa el resultado del desafío propuesta por Alura Latam par
 -Rodapié
 
 CSS: 
-Trabajaremos con metodologia BEM y arquitectura Atomic Desing
+Trabajaremos con metodologia BEM y arquitectura Atomic Desing, agregaremos stilos responsive.
+
+Puedes observar el resultado final de este desafio en netlify: [Clic Aqui!](https://soriadevalura.netlify.app/)
