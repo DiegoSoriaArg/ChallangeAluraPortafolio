@@ -44,6 +44,7 @@
 @import url(./contacto/formcontacto-textarea.css);
 @import url(./contacto/formcontacto-boton.css);
 @import url(./contacto/formcontacto-form.css);
+@import url(./contacto/formcontacto-img.css);
 @import url(./contacto/formcontacto-subtitulo.css);
 @import url(./contacto/formcontacto-form-container.css);
 @import url(./contacto/formcontacto-label.css);
@@ -84,4 +85,10 @@ a {
 
 .contenedorPrincipal {
     margin: 0 10rem 0 10rem;
+}
+
+fieldset {
+    border: 0;
+    margin-left: 0;
+    padding: 0;
 }

@@ -1,6 +1,7 @@
 .formcontacto__form__container {
     font-weight: 300;
     position: relative;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
@@ -9,7 +10,7 @@
 }
 
 .formcontacto__form__container--invalid {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.1rem;
 }
 
 .formcontacto__form__container--invalid .formcontacto__input {
@@ -25,5 +26,6 @@
     color: red;
     display: block;
     margin-top: 0.5rem;
+    margin-bottom: -1rem;
     padding-left: 0.5rem;
 }
