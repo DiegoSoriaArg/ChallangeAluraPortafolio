@@ -10,6 +10,7 @@ export function validar (input){
     }
 }
 
+//Idetificamos el tipo de error posible que nos devulve el targe del input
 const tipoDeError = [
     "valueMissing",
     "typeMismatch",
@@ -17,6 +18,7 @@ const tipoDeError = [
     "customError"
 ];
 
+//Creamos objetos que identifiquen los mensajes que enviaremos
 const mensajeDeError = {
   nombre: {
     valueMissing: "El campo nombre no puede estar vacio",
@@ -37,6 +39,7 @@ const mensajeDeError = {
   },
 };
 
+//Creamos la funcion encargada de identificar el tipo de error
 function MostrarMensajeDeerror(tipoDeInput, input) {
     let mensaje = "";
     tipoDeError.forEach(error => {
