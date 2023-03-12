@@ -1,4 +1,4 @@
-Este proyecto representa el resultado del desafío propuesta por Alura Latam para los estudiantes de la especialización en desarrollo Front-End, en donde debemos crear un portafolio web que incluya secciones como: 
+Este proyecto representa el resultado del desafío propuesto por Alura Latam para los estudiantes de la especialización en desarrollo Front-End, en donde debemos crear un portafolio web que incluya secciones como: 
 
 -Título de su sitio web
 -Menú principal
